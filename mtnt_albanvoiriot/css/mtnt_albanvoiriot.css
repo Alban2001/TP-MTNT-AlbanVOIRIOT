@@ -1,0 +1,184 @@
+/********** CORPS DE LA PAGE **********/
+
+html { 
+  background: url("/mtnt_albanvoiriot/Images/fondEcran.PNG") no-repeat center center scroll; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Arial;
+}
+
+body{
+	margin-bottom: 5%;
+}
+
+/***************************************/
+
+
+/********** HEADER **********/
+
+#header{
+	font-family: Arial;
+	color: white;
+	font-weight: bold;
+	padding:  25px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10%;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline;
+	margin-left: 30px;
+}
+
+a{
+	text-decoration: none;
+	color:  white;
+}
+
+.logo{
+	background-color: white;
+}
+
+#start-presentation{
+	font-family: Arial;
+	padding:  40px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60%;
+}
+
+.start-presentation-reseaux{
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+
+.start-presentation-titre{
+	font-size: 25px;
+}
+
+.start-presentation-titre > h5{
+	color: #FBD784;
+}
+
+.sommaire{
+	border-collapse: collapse;
+	border-top: none;
+	position: fixed;
+	right:  20px;
+}
+
+.sommaire th{
+	font-size: 25px;
+	width: 150px;
+	height: 50px;
+}
+
+.sommaire tr{
+	border: 40px;
+}
+
+.sommaire a{
+	color: white;
+	font-size: 20px;
+	background-color: transparent;
+	padding: 20px;
+	border-style: none;
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: white;
+  	cursor: pointer;
+}
+
+.sommaire a:hover{
+	border-right-width: 5px;
+}
+
+.btnStart{
+	margin-right:  16%;
+}
+
+
+/******************************************/
+
+
+/*************PRESENTATIONS DES PHOTOS ***************/
+
+
+#presentation-1, #presentation-2, #presentation-3{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: flex-start;
+	margin-bottom: 10%;
+
+}
+
+.images-cadre{
+	width:  400px;
+	height: 500px;
+	float: left;
+}
+
+.images-cadre-1{
+	margin-right: 10%;
+}
+
+.images-cadre-2{
+	margin-left: 10%;
+}
+
+.images-cadre-3{
+	margin-right: 10%;
+}
+
+.texte{
+	float: right;
+	color: white;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+.texte:nth-child(2){
+	margin-left: 15%;
+}
+
+.presentation-titre-numero{
+	position: absolute;
+	opacity: 0.5;
+	font-size: 140px;
+}
+
+.presentation-titre{
+	font-size: 50px;
+  font-family:Chronicle Display;
+}
+
+.presentation-titre-jaune{
+	margin-left:  12%;
+	color: #FBD784;
+}
+
+.presentation-red_more-jaune{
+	color: #FBD784;
+}
+
+.presentation-fleche-jaune{
+	background-color: #FBD784;
+}
+
+/***************************************************************/
+
+
+/************* FOOTER ***************/
+
+footer{
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+
+/************************************/
